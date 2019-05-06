@@ -1,0 +1,19 @@
+{
+  "name": "Dius Bowling Game",
+  "version": "0.0.1",
+  "description": "Dius Bowling Game",
+  "main": "bowlingGame.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node app.js"
+  },
+  "author": "Stanley Sun",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "expect.js": "^0.3.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
