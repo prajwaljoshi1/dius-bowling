@@ -77,7 +77,7 @@ class BowlingGame {
 
 
 
-        for (var frame = 1; frame <=9; frame++) {
+        for (let frame = 1; frame <=9; frame++) {
 
             if (isStrike()) {
                 score += 10 + strikeBonus();
